@@ -1,7 +1,9 @@
 📰 Fake News Detection
-This is a simple web-based application that allows users to detect whether a news statement is Fake or Real using a machine learning model deployed via a Flask API. The frontend is built with HTML and JavaScript, while the backend runs on Flask and is exposed via ngrok for public access.
+
+This simple web-based application allows users to detect whether a news statement is Fake or Real using a machine learning model deployed via a Flask API. The frontend is built with HTML and JavaScript, while the backend runs on Flask and is exposed via ngrok for public access.
 
 🔍 Features
+
 ✅ User-friendly interface to input news text
 
 🧠 Flask-powered backend prediction API
@@ -13,6 +15,7 @@ This is a simple web-based application that allows users to detect whether a new
 🔁 Real-time communication using fetch() and REST APIs
 
 🛠️ Technologies Used
+
 Frontend: HTML, JavaScript
 
 Backend: Python, Flask
@@ -21,18 +24,10 @@ Deployment: ngrok (for public URL tunneling)
 
 Model: (Simple fake news detection logic – replace with your ML model later)
 
-📁 Project Structure
-csharp
-Copy
-Edit
-.
-├── app.py                 # Flask backend (API)
-├── templates/
-│   └── index.html         # Frontend HTML file
-├── static/                # Optional: add CSS or JS here
-├── requirements.txt       # List of required Python packages
-└── README.md              # Project documentation
+
+
 🚀 How to Run This Project
+
 Clone this repo
 
 bash
@@ -62,13 +57,19 @@ Open the HTML file in a browser
 
 Make sure your JavaScript fetch() URL matches the ngrok public URL shown in the terminal.
 
+
 ✨ Demo
+
 🧪 Type some news into the box and click Check. You’ll instantly see if it’s 🚨 Fake or ✅ Real.
 
+
 📬 Contact
+
+
 For questions or suggestions, feel free to reach out to [niharikakapoor1704@gmail.com] or open an issue.
 
 ⚠️ Model Scope & Limitations
+
 This Fake News Detection model was trained on a specific dataset, which means its accuracy and reliability are best when analyzing text with similar structure, vocabulary, and context as the training data.
 
 Dataset-Specific Performance: The model may not generalize well to news from unfamiliar domains or writing styles it hasn't seen before.
@@ -80,6 +81,7 @@ Future Improvements: Enhancing the model with larger, more diverse datasets and 
 📌 Always consider this tool as a supportive assistant, not a final judge for fake news classification.
 
 🚀 Future Work
+
 To enhance the Fake News Detection system, the following improvements are planned or suggested:
 
 Train on Larger & More Diverse Datasets: Incorporating multilingual news articles, social media content, and region-specific news can improve accuracy and adaptability.
